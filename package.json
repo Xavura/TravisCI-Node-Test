@@ -1,0 +1,11 @@
+{
+	"name": "TravisCI-Node-Test"
+,	"version": "0.0.1"
+,	"private": true
+,	"scripts": {
+		"test": "jasmine-node --color --verbose --coffee spec"
+	}
+,	"devDependencies": {
+		"jasmine-node": ">=1.0"
+	}
+}
